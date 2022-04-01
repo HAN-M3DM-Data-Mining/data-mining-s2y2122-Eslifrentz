@@ -109,3 +109,7 @@ predVec <- predict(nbayesModel, testDTM)
 confusionMatrix(predVec, testDF$label, positive = "1", dnn = c("Prediction", "True"))
 ```
 ## The accuracy of the model is 0.7282.
+
+## Errors fixed
+Changed %<% to %>%
+line 70 changed 900 to 1000
